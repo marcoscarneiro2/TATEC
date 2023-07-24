@@ -18,6 +18,24 @@ body {
     "rodape rodape rodape rodape";
 }
 
+::-webkit-scrollbar {
+    height: 10px; /* Altura da barra de rolagem */
+    width:5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da área da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9c315f; /* Cor da alça (o "puxador" da barra de rolagem) */
+    border-radius: 5px; /* Arredondar as bordas da alça */
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Cor da alça quando o cursor passa sobre ela */
+    }
+
 @media (max-width: 1000px) {
   body {
     display: grid;
