@@ -3,5 +3,5 @@
 ![image](https://badgen.net/npm/v/express)
 
 # Tatec
-https://marcoscarneiro2.github.io/TATEC/)https://marcoscarneiro2.github.io/TATEC/
+https://marcoscarneiro2.github.io/TATEC/
 :3
