@@ -59,8 +59,9 @@ main .conteudo .svg img {
 
 /* Estilos para a lista de serviços */
 .texto ul {
-    list-style-type: none; /* Remover marcadores padrão da lista */
+    list-style-type: disc; 
     padding-left: 0; /* Remover recuo à esquerda */
+    padding-left:5%;
 }
 
 .texto h3 {
@@ -71,8 +72,10 @@ main .conteudo .svg img {
 }
 
 .texto li {
-    font-size: 16px; /* Tamanho da fonte dos itens */
+    font-size: 14px; /* Tamanho da fonte dos itens */
     line-height: 1.6; /* Espaçamento entre linhas */
+    color:gray;
+    
 }
 
 @media (max-width: 1000px) {
@@ -116,6 +119,21 @@ main .conteudo .svg img {
     max-height: 400px;
     margin: 0;
   }
+    .texto ul {
+        list-style-type: disc; /* Remover marcadores padrão da lista */
+        padding-left: 0; /* Remover recuo à esquerda */
+    }
+
+    .texto h3 {
+        font-size: 14px; /* Tamanho da fonte do título */
+
+    }
+
+    .texto li {
+        font-size: 12px; /* Tamanho da fonte dos itens */
+        color: gray;
+        padding-left: 3%;
+    }
 }
 
 @media (max-width: 400px) {

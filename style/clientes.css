@@ -1,0 +1,68 @@
+main .clientes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px; /* Espaçamento entre os elementos */
+    opacity: 0;
+    transition: 1s;
+    padding: 0 0 100px;
+}
+
+main .ativo {
+    opacity: 1;
+}
+
+main .clientes > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .clientes div .titulo {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 57px;
+    color: #3c3b3b;
+    display: flex;
+    align-items: center;
+    margin-left: .2em;
+}
+
+main .clientes .cliente_titulo img{
+    width: 40px;
+    height: 40px;
+}
+
+main .logo-container img{
+    width: 135px;
+    height:100px;
+    padding:15%;
+}
+
+/* Para dispositivos com tela menor ou igual a 600px */
+@media (max-width: 600px) {
+    main .clientes {
+        grid-template-columns: 1fr; /* Uma coluna para dispositivos menores */
+    }
+
+        main .clientes > div {
+            flex-direction: column; /* Empilhar os elementos verticalmente */
+            align-items: center;
+        }
+
+        main .clientes div .titulo {
+            margin-top: 10px; /* Espaçamento entre o título e a imagem */
+        }
+
+    .logo-container {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center;
+    }
+
+        .logo-container img {
+            max-width: 100%; /* Preenche a largura disponível */
+            margin-bottom: 10px; /* Espaçamento entre as imagens empilhadas */
+        }
+}
