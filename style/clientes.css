@@ -29,10 +29,16 @@ main .clientes div .titulo {
     margin-left: .2em;
 }
 
+main .clientes p {
+    text-align:center;
+    color:gray;
+}
+
 main .clientes .cliente_titulo img{
     width: 40px;
     height: 40px;
 }
+
 
 main .logo-container img{
     width: 135px;
