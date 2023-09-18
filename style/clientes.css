@@ -41,8 +41,8 @@ main .clientes .cliente_titulo img{
 
 
 main .logo-container img{
-    width: 135px;
-    height:100px;
+    width: 200px;
+    height:auto;
     padding:15%;
 }
 
